@@ -1,0 +1,16 @@
+{
+  "name": "fylo-tailwind-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node watch.js",
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
